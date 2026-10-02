@@ -5,16 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task Manager Ver.1</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
 </head>
 <body>
     <h1>Task Manager Ver.1</h1>
     <p>Organize your tasks and get things done.</p>
 
-    <input type="text" id="taskInput" placeholder="Enter your new task..">
-    <button>Add Task</button>
+    <input type="text" id="taskInput" placeholder="Enter your new task.." required>
+    <button id="addTaskBtn">Add Task</button>
 
-    
+    <br><br>
 
+    <ul id="taskList">
+
+    </ul>
+
+    <input type="checkbox" id="taskCheckbox">
+    <label for="taskCheckbox">Task 1</label>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
